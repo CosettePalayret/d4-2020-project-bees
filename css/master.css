@@ -1,0 +1,148 @@
+body{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #FFD700;
+  min-height:15vh;
+}
+
+footer{
+  background-color: #FFD700;
+  min-height:15vh;
+}
+
+article{
+  min-height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-content{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+#main-navigation ul{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#footer-navigation ul{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 3em;
+}
+
+#footer-navigation img{
+  display: flex;
+  justify-content: center;
+}
+
+nav a{
+  color: black;
+}
+
+.click-button {
+  display: inline-block;
+  background: #FFD700;
+  color: #662669;
+  font-size: 20px;
+  padding: 13px;
+  border-radius: 10px;
+  transition: 1.5s box-shadow ease-in;
+}
+
+.click-button:hover{
+  background: black;
+  color: #FFD700;
+}
+
+.click-picto {
+  display: inline-block;
+  background: #FFD700;
+  color: #662669;
+  padding: 2px;
+  border-radius:7px;
+  transition: 1.5s box-shadow ease-in;
+}
+
+.click-picto:hover{
+  background: black;
+  color: #FFD700;
+}
+
+.content{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.content video{
+  display: block;
+  flex-basis: 650px;
+}
+
+p{
+  flex-basis: 650px;
+  padding: 2em;
+  text-align: justify;
+  color: white;
+}
+
+h1{
+  text-align: center;
+  color: #FFD700;
+}
+
+h2{
+  text-align: center;
+  color: #FFD700
+}
+
+h3{
+  text-align: center;
+  color: #FFD700
+}
+
+.titre{
+  background: black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.images{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  margin-left: 2em;
+}
+
+.schema img{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  max-width: 100%;
+	height: auto
+}
+
+.texte{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: auto
+}
