@@ -10,6 +10,14 @@ header {
   min-height:15vh;
 }
 
+.content video{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
 footer{
   background-color: #FFD700;
   min-height:15vh;
@@ -38,13 +46,17 @@ article{
 
 #footer-navigation ul{
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 3em;
+  justify-content: center;
+  padding-top: 5em;
 }
 
 #footer-navigation img{
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 nav a{
